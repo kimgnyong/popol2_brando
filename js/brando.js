@@ -455,13 +455,13 @@
               newScrollTop = $(window).scrollTop();
             
               if( (oldScrollTop-newScrollTop) > 0  ){
-                  imgTop+=1;
+                  imgTop+=.5;
                   $backImg.css({background:'url(./img/sect4bg.jpg) no-repeat 50% '+imgTop+'% fixed'});
               }
               if( (oldScrollTop-newScrollTop) < 0  ){
-                  imgTop-=1;
+                  imgTop-=.5;
                   $backImg.css({background:'url(./img/sect4bg.jpg) no-repeat 50% '+imgTop+'% fixed'});
-                  if(imgTop <= 0){imgTop= 50;}
+                  if(imgTop <= -10){imgTop= 50;}
               }
               oldScrollTop = newScrollTop;
             }

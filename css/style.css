@@ -19,12 +19,15 @@
 #wrap #header .wrap .gap .container .skip-wrap .skip-gap .skip-content .skip.hSkipClick > a {border-bottom:1px solid #fff;}
 #wrap #header .wrap .gap .container .aside-wrap {float:right;}
 #wrap #header .wrap .gap .container .aside-wrap .aside-gap {width:100%;}
-#wrap #header .wrap .gap .container .aside-wrap .aside-gap .aside-content {width:100%;}
+#wrap #header .wrap .gap .container .aside-wrap .aside-gap .aside-content {width:100%;position: relative;}
 #wrap #header .wrap .gap .container .aside-wrap .aside-gap .aside-content > span {float:right;font-size: 11px; line-height: 250%;font-weight: 600; color:#fff; text-transform: uppercase;letter-spacing: 0.26px;}
-#wrap #header .wrap .gap .container .aside-wrap .aside-gap .aside-content .aside-box {float:right;border:2px solid #fff;padding:4px 12px;margin:2px 0 2px 5px; transition: all .3s;}
-#wrap #header .wrap .gap .container .aside-wrap .aside-gap .aside-content .aside-box > span {display:inline-block;font-size: 10px; line-height: 100%;font-weight: 600; color:#fff; text-transform: uppercase; letter-spacing: 0.26px; transition: all .3s ease-in-out;}
-#wrap #header .wrap .gap .container .aside-wrap .aside-gap .aside-content .aside-box:hover {background: #fff;}
-#wrap #header .wrap .gap .container .aside-wrap .aside-gap .aside-content .aside-box:hover > span {color:#000;}
+#wrap #header .wrap .gap .container .aside-wrap .aside-gap .aside-content .aside-box {float:right; transform-style: preserve-3d;width:100px;height:24px;position: relative; text-align: center;}
+#wrap #header .wrap .gap .container .aside-wrap .aside-gap .aside-content .aside-box .aside-button {position: relative;perspective: 136px;width:100%;}
+#wrap #header .wrap .gap .container .aside-wrap .aside-gap .aside-content .aside-box .aside-button > a {position: absolute;display:block; width:auto;padding:4px 12px; margin:2px 0 2px 5px; font-size: 10px;line-height:140%;font-weight: 600;color:#000;background-color:transparent;text-transform: uppercase;}
+#wrap #header .wrap .gap .container .aside-wrap .aside-gap .aside-content .aside-box .aside-button > a:nth-child(1) {color: transparent;border:1px solid transparent;transform: rotateX(90deg);transition: all 0.3s;transform-origin: 50% 50% -10px;}
+#wrap #header .wrap .gap .container .aside-wrap .aside-gap .aside-content .aside-box .aside-button > a:nth-child(2) {color: #fff;border:1px solid #fff;transform: rotateX(0deg); transition: all 0.3s;transform-origin: 50% 50% -10px;}
+#wrap #header .wrap .gap .container .aside-wrap .aside-gap .aside-content .aside-box .aside-button:hover > a:nth-child(1) {color: #000;background-color: #fff;border:1px solid #fff;transition: all 0.3s;transform: rotateX(0deg);}
+#wrap #header .wrap .gap .container .aside-wrap .aside-gap .aside-content .aside-box .aside-button:hover > a:nth-child(2) {color:transparent;border: 1px solid transparent;transition: all 0.3s;transform: rotateX(-90deg);}
 
 #wrap #header .wrap .gap .container .skip-up {z-index:5;position: fixed;width:25px;height:25px;background: #000;bottom:3%;right:2%; display: none;opacity: 0;}
 #wrap #header .wrap .gap .container .skip-up.hedAddBlock {display: block;opacity: 1;animation: hedAddBlock .5s;}
@@ -89,8 +92,13 @@
 #wrap #main #section2 .wrap .gap .container .text-box .text-box-gap .text-box-wrap .row-gap > p {font-size: 18px; font-weight: 500; color:#000;line-height: 150%;letter-spacing: 0.26px;}
 #wrap #main #section2 .wrap .gap .container .text-box .text-box-gap .text-box-wrap .row2-gap {display:inline-block;width:100%;margin-bottom:10px;}
 #wrap #main #section2 .wrap .gap .container .text-box .text-box-gap .text-box-wrap .row2-gap > p {font-size: 13px; font-weight: 500; color:#626262;line-height: 170%;letter-spacing: 0.26px;}
-#wrap #main #section2 .wrap .gap .container .text-box .text-box-gap .text-box-wrap .services-box {display:inline-block;border:4px solid #000;padding:10px 22px;margin-top:30px;transition: all .3s ease-in-out;}
-#wrap #main #section2 .wrap .gap .container .text-box .text-box-gap .text-box-wrap .services-box:hover {background:#000;color:#fff;}
+#wrap #main #section2 .wrap .gap .container .text-box .text-box-gap .text-box-wrap .services-box {display:inline-block;transform-style: preserve-3d;position: relative;perspective: 312px;width:156px;}
+#wrap #main #section2 .wrap .gap .container .text-box .text-box-gap .text-box-wrap .services-box > a {position: absolute;display:block;padding:10px 12px; margin-top:30px;border:4px solid #000; font-size: 14px;line-height:150%;font-weight: 600;color:#000;background-color:transparent;text-transform: uppercase;width:auto;text-align: center;}
+#wrap #main #section2 .wrap .gap .container .text-box .text-box-gap .text-box-wrap .services-box > a:nth-child(1) {color: transparent;border:4px solid transparent;transform: rotateX(90deg);transition: all 0.3s;transform-origin: 50% 50% -10px;}
+#wrap #main #section2 .wrap .gap .container .text-box .text-box-gap .text-box-wrap .services-box > a:nth-child(2) {color: #000;border:4px solid #000;transform: rotateX(0deg); transition: all 0.3s;transform-origin: 50% 50% -10px;}
+#wrap #main #section2 .wrap .gap .container .text-box .text-box-gap .text-box-wrap .services-box:hover > a:nth-child(1) {color: #fff;background-color: #000;border:4px solid #000;transition: all 0.3s;transform: rotateX(0deg);}
+#wrap #main #section2 .wrap .gap .container .text-box .text-box-gap .text-box-wrap .services-box:hover > a:nth-child(2) {color:transparent;border: 4px solid transparent;transition: all 0.3s;transform: rotateX(-90deg);}
+
 #wrap #main #section2 .wrap .gap .container .text-box .text-box-gap .text-box-wrap .services-box > span {font-size:14px; font-weight: 600;line-height: 150%;}
 #wrap #main #section2 .wrap .gap .container .icon-gal {float:right;width:50%;}
 #wrap #main #section2 .wrap .gap .container .icon-gal .icon-gal-wrap {width:100%;}
@@ -154,8 +162,8 @@
 #wrap #main #section5 .wrap .gap .container .tap-row .tap-menu-wrap .tap-menu-gap {padding:0 15px; margin-top:15px;}
 #wrap #main #section5 .wrap .gap .container .tap-row .tap-menu-wrap .tap-menu-gap ul.tap-menu-content {width:100%;}
 #wrap #main #section5 .wrap .gap .container .tap-row .tap-menu-wrap .tap-menu-gap ul.tap-menu-content li.tap-btn-gap {display: inline-block;padding:4px 10px;margin:0 20px;transition: all .3s; background: transparent;}
-#wrap #main #section5 .wrap .gap .container .tap-row .tap-menu-wrap .tap-menu-gap ul.tap-menu-content li.tap-btn-gap:hover {background: #fdd947;}
-#wrap #main #section5 .wrap .gap .container .tap-row .tap-menu-wrap .tap-menu-gap ul.tap-menu-content li.tap-btn-gap.s5AddClick {background: #fdd947;}
+#wrap #main #section5 .wrap .gap .container .tap-row .tap-menu-wrap .tap-menu-gap ul.tap-menu-content li.tap-btn-gap:hover {background: #fdd947;box-shadow: 5px 2.5px 2.5px rgba(0,0,0, .7);}
+#wrap #main #section5 .wrap .gap .container .tap-row .tap-menu-wrap .tap-menu-gap ul.tap-menu-content li.tap-btn-gap.s5AddClick {background: #fdd947; box-shadow: 5px 2.5px 2.5px rgba(0,0,0, .7);}
 #wrap #main #section5 .wrap .gap .container .tap-row .tap-menu-wrap .tap-menu-gap ul.tap-menu-content li.tap-btn-gap > a.tap-btn {display: inline-block;}
 #wrap #main #section5 .wrap .gap .container .tap-row .tap-menu-wrap .tap-menu-gap ul.tap-menu-content li.tap-btn-gap > a.tap-btn > h6 {display: inline-block; font-size: 13px; font-weight: 600; color:#000;}
 #wrap #main #section5 .wrap .gap .container .gallery-wrap {width:100%;}
@@ -211,10 +219,10 @@
 #wrap #main #section6 .wrap .gap .container .content-wrap .content-gap {width:100%;}
 #wrap #main #section6 .wrap .gap .container .content-wrap .content-gap .content-box {width:100%;}
 #wrap #main #section6 .wrap .gap .container .content-wrap .content-gap .content-box .box-wrap {display: inline-block; opacity: 0; top:100px;position: relative;}
-#wrap #main #section6 .wrap .gap .container .content-wrap .content-gap .content-box .box-wrap:nth-child(1).addpal61 {opacity: 1;top:0px; animation: addpal61 1s;}
-#wrap #main #section6 .wrap .gap .container .content-wrap .content-gap .content-box .box-wrap:nth-child(2).addpal62 {opacity: 1;top:0px; animation: addpal62 1s;}
-#wrap #main #section6 .wrap .gap .container .content-wrap .content-gap .content-box .box-wrap:nth-child(3).addpal63 {opacity: 1;top:0px; animation: addpal63 1s;}
-#wrap #main #section6 .wrap .gap .container .content-wrap .content-gap .content-box .box-wrap:nth-child(4).addpal64 {opacity: 1;top:0px; animation: addpal64 1s;}
+#wrap #main #section6 .wrap .gap .container .content-wrap .content-gap .content-box .box-wrap:nth-child(1).addpal61 {opacity: 1;top:0px; animation: addpal61 1s; text-shadow:5px 2.5px 2.5px rgba(255, 238, 0, 0.4);}
+#wrap #main #section6 .wrap .gap .container .content-wrap .content-gap .content-box .box-wrap:nth-child(2).addpal62 {opacity: 1;top:0px; animation: addpal62 1s; text-shadow:5px 2.5px 2.5px rgba(255, 238, 0, 0.4);}
+#wrap #main #section6 .wrap .gap .container .content-wrap .content-gap .content-box .box-wrap:nth-child(3).addpal63 {opacity: 1;top:0px; animation: addpal63 1s; text-shadow:5px 2.5px 2.5px rgba(255, 238, 0, 0.4);}
+#wrap #main #section6 .wrap .gap .container .content-wrap .content-gap .content-box .box-wrap:nth-child(4).addpal64 {opacity: 1;top:0px; animation: addpal64 1s; text-shadow:5px 2.5px 2.5px rgba(255, 238, 0, 0.4);}
 @keyframes addpal61 {
   0%    {opacity: 0; top:100px;}
   25%   {opacity: 1; top:0px;}
@@ -370,9 +378,12 @@
 #wrap #main #section9 .wrap .gap .container .content-wrap .text-box .text-box-gap {width:100%;}
 #wrap #main #section9 .wrap .gap .container .content-wrap .text-box .text-box-gap .text-box-content {width:100%;}
 #wrap #main #section9 .wrap .gap .container .content-wrap .text-box .text-box-gap .text-box-content > p {display: inline-block;;font-size: 18px; line-height: 150%; font-weight: 500; color:#000;margin-bottom:28px;letter-spacing: 0.5px;}
-#wrap #main #section9 .wrap .gap .container .content-wrap .text-box .text-box-gap .text-box-content > a {display: inline-block;border:4px solid #000;}
-#wrap #main #section9 .wrap .gap .container .content-wrap .text-box .text-box-gap .text-box-content > a > p {padding:10px 24px; font-size: 14px; font-weight: 600; line-height: 100%;color:#000;text-transform: uppercase; letter-spacing: .3px;background:transparent; transition: all .3s;}
-#wrap #main #section9 .wrap .gap .container .content-wrap .text-box .text-box-gap .text-box-content > a:hover > p {color:#fff;background:#000;}
+#wrap #main #section9 .wrap .gap .container .content-wrap .text-box .text-box-gap .text-box-content .click-box {display:inline-block;transform-style: preserve-3d;position: relative;perspective: 420px;width:230px;height:44px;}
+#wrap #main #section9 .wrap .gap .container .content-wrap .text-box .text-box-gap .text-box-content .click-box > a {position: absolute;display:block;padding:10px 22px; border:4px solid #000; font-size: 14px;line-height:120%;font-weight: 600;color:#000;background-color:transparent;text-transform: uppercase;width:auto;text-align: center;}
+#wrap #main #section9 .wrap .gap .container .content-wrap .text-box .text-box-gap .text-box-content .click-box > a:nth-child(1) {color: transparent;border:4px solid transparent;transform: rotateX(90deg);transition: all 0.3s;transform-origin: 50% 50% -10px;}
+#wrap #main #section9 .wrap .gap .container .content-wrap .text-box .text-box-gap .text-box-content .click-box > a:nth-child(2) {color: #000;border:4px solid #000;transform: rotateX(0deg); transition: all 0.3s;transform-origin: 50% 50% -10px;}
+#wrap #main #section9 .wrap .gap .container .content-wrap .text-box .text-box-gap .text-box-content .click-box:hover > a:nth-child(1) {color: #fff;background-color: #000;border:4px solid #000;transition: all 0.3s;transform: rotateX(0deg);}
+#wrap #main #section9 .wrap .gap .container .content-wrap .text-box .text-box-gap .text-box-content .click-box:hover > a:nth-child(2) {color:transparent;border: 4px solid transparent;transition: all 0.3s;transform: rotateX(-90deg);}
 #wrap #main #section9 .wrap .gap .container .content-wrap .score-box {float:left; width:60%;}
 #wrap #main #section9 .wrap .gap .container .content-wrap .score-box .score-box-gap {width:100%;margin-left:20px;}
 #wrap #main #section9 .wrap .gap .container .content-wrap .score-box .score-box-gap ul.score-box-wrap {width:100%;}
@@ -508,10 +519,14 @@
 #wrap #main #section12 .wrap .gap .container .move-gal .text-box-wrap .text-box-gap .text-box-content ul.text-wrap li.text-gap > a > i {font-size: 11px; font-weight: 500; line-height: 200%;display: inline-block;}
 #wrap #main #section12 .wrap .gap .container .move-gal .text-box-wrap .text-box-gap .text-box-content ul.text-wrap li.text-gap > a > p {font-size: 11px; font-weight: 500; line-height: 200%;display: inline-block;margin-right: 25px;}
 #wrap #main #section12 .wrap .gap .container .button-box-wrap {width:100%;}
-#wrap #main #section12 .wrap .gap .container .button-box-wrap .button-box-gap {width:100%;padding-top: 120px;}
-#wrap #main #section12 .wrap .gap .container .button-box-wrap .button-box-gap .button-box-content {text-align: center;}
-#wrap #main #section12 .wrap .gap .container .button-box-wrap .button-box-gap .button-box-content > a {display: inline-block;padding:10px 22px;border:4px solid #000;font-size: 14px; line-height: 100%; font-weight: 600;text-transform: uppercase;letter-spacing: 0.2px;transition: all .3s;}
-#wrap #main #section12 .wrap .gap .container .button-box-wrap .button-box-gap .button-box-content > a:hover {color:#fff;background: #000;}
+#wrap #main #section12 .wrap .gap .container .button-box-wrap .button-box-gap {width:100%;padding-top: 120px;text-align: center;}
+#wrap #main #section12 .wrap .gap .container .button-box-wrap .button-box-gap .button-box-content {display:inline-block;transform-style: preserve-3d;position: relative;perspective: 338px;width:169px;height:44px;}
+#wrap #main #section12 .wrap .gap .container .button-box-wrap .button-box-gap .button-box-content > a {position: absolute;display:block;padding:10px 22px; border:4px solid #000; font-size: 14px;line-height:120%;font-weight: 600;color:#000;background-color:transparent;text-transform: uppercase;width:auto;text-align: center;}
+#wrap #main #section12 .wrap .gap .container .button-box-wrap .button-box-gap .button-box-content > a:nth-child(1) {color: transparent;border:4px solid transparent;transform: rotateX(90deg);transition: all 0.3s;transform-origin: 50% 50% -10px;}
+#wrap #main #section12 .wrap .gap .container .button-box-wrap .button-box-gap .button-box-content > a:nth-child(2) {color: #000;border:4px solid #000;transform: rotateX(0deg); transition: all 0.3s;transform-origin: 50% 50% -10px;}
+#wrap #main #section12 .wrap .gap .container .button-box-wrap .button-box-gap .button-box-content:hover > a:nth-child(1) {color: #fff;background-color: #000;border:4px solid #000;transition: all 0.3s;transform: rotateX(0deg);}
+#wrap #main #section12 .wrap .gap .container .button-box-wrap .button-box-gap .button-box-content:hover > a:nth-child(2) {color:transparent;border: 4px solid transparent;transition: all 0.3s;transform: rotateX(-90deg);}
+
 
 #wrap #main #section13 {z-index:2;position:relative;width:100%;}
 #wrap #main #section13 .wrap {width:100%;}
@@ -523,7 +538,7 @@
   0%     {width:0%;background: #fdd947;  transform: skew(45deg); left:-300px;opacity: 0;}
   100%   {width:100%; background: #fdd947; transform: skew(0deg); left:0px;opacity: 1;}
 }
-#wrap #main #section13 .wrap .gap .container .content-wrap .content-gap {padding:80px 0;}
+#wrap #main #section13 .wrap .gap .container .content-wrap .content-gap {padding:80px 15px;}
 #wrap #main #section13 .wrap .gap .container .content-wrap .content-gap .icon-wrap {width:100%;}
 #wrap #main #section13 .wrap .gap .container .content-wrap .content-gap .icon-wrap .icon-gap {width:100%;text-align: center;margin-bottom:10px;}
 #wrap #main #section13 .wrap .gap .container .content-wrap .content-gap .icon-wrap .icon-gap > i {display: inline-block;font-size:50px;font-weight: 400; line-height: 110%;}
@@ -532,9 +547,15 @@
 #wrap #main #section13 .wrap .gap .container .content-wrap .content-gap .text-wrap .text-gap > h4 {display: inline-block;font-size: 24px;font-weight: 600;line-height: 120%;color:#000;letter-spacing: 0.4px;}
 #wrap #main #section13 .wrap .gap .container .content-wrap .content-gap .button-wrap {width:100%;}
 #wrap #main #section13 .wrap .gap .container .content-wrap .content-gap .button-wrap .button-gap {text-align: center;}
-#wrap #main #section13 .wrap .gap .container .content-wrap .content-gap .button-wrap .button-gap > span {display:inline-block; margin: 10px 5px;}
-#wrap #main #section13 .wrap .gap .container .content-wrap .content-gap .button-wrap .button-gap > span > a {display: inline-block;font-size: 14px; font-weight: 600; color:#fff;background: #000;border: 2px solid #000;padding:10px 22px;letter-spacing: 0.4px;text-transform: uppercase;line-height: 140%;transition: all .3s;}
-#wrap #main #section13 .wrap .gap .container .content-wrap .content-gap .button-wrap .button-gap > span > a:hover {color:#000;background: transparent;}
+#wrap #main #section13 .wrap .gap .container .content-wrap .content-gap .button-wrap .button-gap > div:nth-child(1) {display:inline-block;transform-style: preserve-3d;position: relative;perspective: 338px;width:177px;height:44px;}
+#wrap #main #section13 .wrap .gap .container .content-wrap .content-gap .button-wrap .button-gap > div:nth-child(2) {display:inline-block;transform-style: preserve-3d;position: relative;perspective: 338px;width:215px;height:44px;}
+#wrap #main #section13 .wrap .gap .container .content-wrap .content-gap .button-wrap .button-gap > div > a {position: absolute;display:block;padding:10px 22px; border:4px solid #000; font-size: 14px;line-height:120%;font-weight: 600;color:#000;background-color:transparent;text-transform: uppercase;width:auto;text-align: center;}
+#wrap #main #section13 .wrap .gap .container .content-wrap .content-gap .button-wrap .button-gap > div > a:nth-child(1) {color: transparent;border:4px solid transparent;transform: rotateX(90deg);transition: all 0.3s;transform-origin: 50% 50% -10px;}
+#wrap #main #section13 .wrap .gap .container .content-wrap .content-gap .button-wrap .button-gap > div > a:nth-child(2) {color: #000;border:4px solid #000;transform: rotateX(0deg); transition: all 0.3s;transform-origin: 50% 50% -10px;}
+#wrap #main #section13 .wrap .gap .container .content-wrap .content-gap .button-wrap .button-gap > div:hover > a:nth-child(1) {color: #fff;background-color: #000;border:4px solid #000;transition: all 0.3s;transform: rotateX(0deg);}
+#wrap #main #section13 .wrap .gap .container .content-wrap .content-gap .button-wrap .button-gap > div:hover > a:nth-child(2) {color:transparent;border: 4px solid transparent;transition: all 0.3s;transform: rotateX(-90deg);}
+
+
 
 #wrap #main #section14 {z-index:2;position:relative;width:100%;}
 #wrap #main #section14 .wrap {width:100%;}
