@@ -89,9 +89,9 @@
 #wrap #main #section2 .wrap .gap .container .text-box .text-box-gap  {padding:0 15px;}    /* 플로팅을 사용해서 칸의 갭을 나누는용 */
 #wrap #main #section2 .wrap .gap .container .text-box .text-box-gap .text-box-wrap {display:inline-block;width:100%;}
 #wrap #main #section2 .wrap .gap .container .text-box .text-box-gap .text-box-wrap .row-gap {display:inline-block;width:100%;margin-bottom:30px;}
-#wrap #main #section2 .wrap .gap .container .text-box .text-box-gap .text-box-wrap .row-gap > p {font-size: 18px; font-weight: 500; color:#000;line-height: 150%;letter-spacing: 0.26px;}
+#wrap #main #section2 .wrap .gap .container .text-box .text-box-gap .text-box-wrap .row-gap > span {font-size: 18px; font-weight: 500; color:#000;line-height: 150%;letter-spacing: 0.26px;}
 #wrap #main #section2 .wrap .gap .container .text-box .text-box-gap .text-box-wrap .row2-gap {display:inline-block;width:100%;margin-bottom:10px;}
-#wrap #main #section2 .wrap .gap .container .text-box .text-box-gap .text-box-wrap .row2-gap > p {font-size: 13px; font-weight: 500; color:#626262;line-height: 170%;letter-spacing: 0.26px;}
+#wrap #main #section2 .wrap .gap .container .text-box .text-box-gap .text-box-wrap .row2-gap > span {font-size: 13px; font-weight: 500; color:#626262;line-height: 170%;letter-spacing: 0.26px;}
 #wrap #main #section2 .wrap .gap .container .text-box .text-box-gap .text-box-wrap .services-box {display:inline-block;transform-style: preserve-3d;position: relative;perspective: 312px;width:156px;}
 #wrap #main #section2 .wrap .gap .container .text-box .text-box-gap .text-box-wrap .services-box > a {position: absolute;display:block;padding:10px 12px; margin-top:30px;border:4px solid #000; font-size: 14px;line-height:150%;font-weight: 600;color:#000;background-color:transparent;text-transform: uppercase;width:auto;text-align: center;}
 #wrap #main #section2 .wrap .gap .container .text-box .text-box-gap .text-box-wrap .services-box > a:nth-child(1) {color: transparent;border:4px solid transparent;transform: rotateX(90deg);transition: all 0.3s;transform-origin: 50% 50% -17px;}
