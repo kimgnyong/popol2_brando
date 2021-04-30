@@ -63,7 +63,7 @@
 #wrap #main #section1 .wrap .gap .container .slide-view .slide-wrap .slide .text-gap .text-wrap .text-content > h2 {display: block;font-size:100px;font-weight:700;color:#fff;line-height: 100%;width:80%;text-transform: uppercase;}
 #wrap #main #section1 .wrap .gap .container .slide-view .slide-wrap .slide .text-gap .text-wrap .text-content > .center-gap {display:block;margin:80px 0;}
 #wrap #main #section1 .wrap .gap .container .slide-view .slide-wrap .slide .text-gap .text-wrap .text-content > .center-gap > .underline {display:block;width:570px;height:8px;background-color: #fdd947;}
-#wrap #main #section1 .wrap .gap .container .slide-view .slide-wrap .slide .text-gap .text-wrap .text-content > p {display: block;font-size:15px;font-weight: 500;color:#fff;line-height: 150%;width:80%;text-transform: uppercase;}
+#wrap #main #section1 .wrap .gap .container .slide-view .slide-wrap .slide .text-gap .text-wrap .text-content > span {display: block;font-size:15px;font-weight: 500;color:#fff;line-height: 150%;width:80%;text-transform: uppercase;}
 #wrap #main #section1 .wrap .gap .container .page-btn-wrap {z-index:3;position: absolute; bottom:0;display: block; width:100%; text-align: center; cursor: pointer;}
 #wrap #main #section1 .wrap .gap .container .page-btn-wrap .page-btn-gap {display: inline-block;padding:10px 5px 25px 5px;}
 #wrap #main #section1 .wrap .gap .container .page-btn-wrap .page-btn-gap .page-btn {display: inline-block;width:30px;height:1px;background: rgb(150,150,150);border:1px solid rgb(150,150,150);transition: all .3s;}
