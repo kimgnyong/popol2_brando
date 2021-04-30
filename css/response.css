@@ -132,7 +132,8 @@
   #wrap #main #section2 .wrap .gap .container .text-box .text-box-gap .text-box-wrap {text-align: center;}
   #wrap #main #section2 .wrap .gap .container .text-box .text-box-gap .text-box-wrap .services-box {margin-left:14px;}
   #wrap #main #section2 .wrap .gap .container .icon-gal .icon-gal-wrap {text-align: center;}
-  #wrap #main #section2 .wrap .gap .container .icon-gal .icon-gal-wrap .icon-gal-gap {float:none;width:100%;margin-bottom:50px;padding:0;margin-top:120px;}
+  #wrap #main #section2 .wrap .gap .container .icon-gal .icon-gal-wrap .icon-gal-gap:nth-child(1) {float:none;width:100%;margin-bottom:50px;padding:0;margin-top:120px;}
+  #wrap #main #section2 .wrap .gap .container .icon-gal .icon-gal-wrap .icon-gal-gap {float:none;width:100%;margin-bottom:50px;padding:0;margin-top:50px;}
   #wrap #main #section2 .wrap .gap .container .icon-gal .icon-gal-wrap .icon-gal-gap > .center-gap {margin:30px 0 24px 0;}
   
   #wrap #main #section3 .wrap .gap {padding:10.4031209vw 0px;}
